@@ -1,0 +1,318 @@
+/*---Desktop---*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {}
+
+
+/*---Laptop---*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact-p {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+/*---Tab & Mini laptop---*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog {
+        margin: 20px 10px;
+    }
+    .uk h3 {
+        color: #656565;
+    }
+    .most-claim-single-box {
+        height: 250px;
+    }
+    .most-claim {
+        text-align: center;
+    }
+    .contact-img img {
+        width: 400px;
+    }
+    .contact-p {
+        margin: 40px 40px;
+    }
+    .address {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contact-titel {
+        margin-right: 0px;
+    }
+}
+
+
+/*---Mobile----*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .claim-form {
+        margin-bottom: 100px !important;
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+    }
+    .banner-info {
+        height: auto;
+    }
+    .video {
+        margin-bottom: 120px;
+    }
+    .uk h3 {
+        color: #656565;
+        font-size: 20px;
+    }
+    .most-claim-single-box {
+        height: 280px;
+    }
+    .most-claim {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .contact {
+        width: 80%;
+    }
+    .single-blog {
+        margin: 20px 10px;
+    }
+    .main-news-disc h4 {
+        font-size: 16px;
+        color: #707070;
+    }
+    ul.navbar-nav.d-flex.align-items-center.main-menu {
+        align-items: flex-start !important;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .energy-claim ul {
+        margin: 0px 30px;
+    }
+    .claim-form h2 {
+        font-size: 24px;
+    }
+    .faq-box span {
+        font-size: 16px;
+    }
+    .contact-img img {
+        width: 350px;
+    }
+    .contact-contean {
+        padding: 20px 20px;
+    }
+    .contact-p {
+        margin-left: 20px !important;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .address {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contact-titel {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .claim-form {
+        margin-bottom: 100px !important;
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+    }
+    .banner-info {
+        height: auto;
+    }
+    .video {
+        margin-bottom: 120px;
+    }
+    .most-claim-single-box {
+        height: 320px;
+    }
+    .uk h3 {
+        color: #656565;
+        font-size: 20px;
+    }
+    .most-claim {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .contact {
+        width: 80%;
+    }
+    ul.navbar-nav.d-flex.align-items-center.main-menu {
+        align-items: flex-start !important;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .energy-claim ul {
+        margin: 0px 30px;
+    }
+    .claim-form h2 {
+        font-size: 24px;
+    }
+    .faq-box span {
+        font-size: 16px;
+    }
+    .contact-contean {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-img {
+        margin-bottom: 30px;
+    }
+    .contact-img img {
+        width: 100%;
+    }
+    .contact-contean {
+        padding: 40px 30px;
+    }
+    .contact-p {
+        margin: 0px 0px;
+    }
+    .address {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contact-titel {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .claim-form {
+        margin-bottom: 100px !important;
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+    }
+    .banner-info {
+        height: auto;
+    }
+    .video {
+        margin-bottom: 120px;
+    }
+    .uk h3 {
+        color: #656565;
+        font-size: 20px;
+    }
+    .most-claim-single-box {
+        height: 240px;
+    }
+    .most-claim {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .contact {
+        width: 90%;
+    }
+    .most-claim-box {
+        flex-wrap: wrap;
+    }
+    ul.navbar-nav.d-flex.align-items-center.main-menu {
+        align-items: flex-start !important;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .energy-claim ul {
+        margin: 0px 30px;
+    }
+    .claim-form h2 {
+        font-size: 24px;
+    }
+    .faq-box span {
+        font-size: 16px;
+    }
+    .contact-contean {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-img {
+        margin-bottom: 30px;
+    }
+    .contact-img img {
+        width: 100%;
+    }
+    .contact-contean {
+        padding: 40px 30px;
+    }
+    .contact-p {
+        margin: 0px 0px;
+    }
+    .address {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contact-titel {
+        margin-right: 0px;
+    }
+    .address-info {
+        margin-bottom: 20px;
+    }
+    .address-info span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .claim-form {
+        margin-bottom: 100px !important;
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+    }
+    .banner-info {
+        height: auto;
+    }
+    .video {
+        margin-bottom: 120px;
+    }
+    .uk h3 {
+        color: #656565;
+        font-size: 20px;
+    }
+    .most-claim-single-box {
+        height: 240px;
+    }
+    .most-claim {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .contact {
+        width: 90%;
+    }
+    .most-claim-box {
+        flex-wrap: wrap;
+    }
+    ul.navbar-nav.d-flex.align-items-center.main-menu {
+        align-items: flex-start !important;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .energy-claim ul {
+        margin: 0px 30px;
+    }
+    .claim-form h2 {
+        font-size: 24px;
+    }
+    .faq-box span {
+        font-size: 16px;
+    }
+    .contact-titel {
+        margin-right: 0px;
+    }
+    .address-info {
+        margin-bottom: 20px;
+    }
+    .address-info span {
+        font-size: 16px;
+    }
+}

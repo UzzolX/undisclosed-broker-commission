@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index-index');
+Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index'])->name('contact-index');
+Route::get('/frequently-asked-questions', [App\Http\Controllers\FaqController::class, 'index'])->name('faq-index');
+Route::get('/news', [App\Http\Controllers\NewsController::class, 'index'])->name('news-index');
+Route::get('/media', [App\Http\Controllers\MediaController::class, 'index'])->name('media-index');
