@@ -29,28 +29,29 @@
                                 <h2> How much is my business energy claim worth?</h2>
                                 <p>Please complete below and we’ll get back to you to advice how we calculate your
                                     claims!</p>
-                                <form action="">
+                                <form action="{{route('index.storeClaim')}}" method="POST">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-xl-12">
-                                            <input type="text" placeholder="Name">
+                                            <input name="name" type="text" placeholder="Name">
                                         </div>
                                         <div class="col-xl-12">
-                                            <input type="number" placeholder="Mobile">
+                                            <input name="phone" type="number" placeholder="Mobile">
                                         </div>
                                         <div class="col-xl-12">
-                                            <input type="email" placeholder="Email">
+                                            <input name="email" type="email" placeholder="Email">
                                         </div>
                                         <div class="col-xl-12">
-                                            <select id="Broker">
-                                                <option value="" disabled selected hidden>Have you used a Broker?
+                                            <select name="used_broker" id="Broker">
+                                                <option disabled selected hidden>Have you used a Broker?
                                                 </option>
                                                 <option value="yes">Yes</option>
                                                 <option value="no">No</option>
                                             </select>
                                         </div>
                                         <div class=" col-xl-12">
-                                            <input type="file" data-multiple-caption="{count} files selected" multiple
-                                                name="file" id="file" class="inputfile">
+                                            <input name="file" type="file" data-multiple-caption="{count} files selected" multiple
+                                                 id="file" class="inputfile">
                                             <label for="file"><span>Choose a file&hellip;</span></label>
                                         </div>
                                         <div class="col-xl-12">
@@ -225,11 +226,12 @@
                     </div>
                     <div class="col-xl-12">
                         <div class="contact">
-                            <form action="Name">
-                                <input type="text" placeholder="Name">
-                                <input type="number" placeholder="Mobile">
-                                <input type="email" placeholder="Email">
-                                <textarea placeholder="Your message"></textarea>
+                            <form action="#" method="POST">
+                                @csrf
+                                <input name="name" type="text" placeholder="Name">
+                                <input name="phone" type="number" placeholder="Mobile">
+                                <input name="email" type="email" placeholder="Email">
+                                <textarea name="message" placeholder="Your message"></textarea>
                                 <button type="submit"> Send massage </button>
                             </form>
                         </div>

@@ -59,11 +59,12 @@
                             <div class="contact-titel">
                                 <h3>Get in touch</h3>
                                 <div class="contact-us">
-                                    <form action="Name">
-                                        <input type="text" placeholder="Name">
-                                        <input type="number" placeholder="Mobile">
-                                        <input type="email" placeholder="Email">
-                                        <textarea placeholder="Your message"></textarea>
+                                    <form action="{{route('contact.store')}}" method="POST">
+                                        @csrf
+                                        <input name="name" type="text" placeholder="Name">
+                                        <input name="phone" type="number" placeholder="Mobile">
+                                        <input name="email" type="email" placeholder="Email">
+                                        <textarea name="message" placeholder="Your message"></textarea>
                                         <button type="submit"> Send massage </button>
                                     </form>
                                 </div>
