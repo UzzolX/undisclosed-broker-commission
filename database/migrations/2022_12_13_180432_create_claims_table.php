@@ -18,8 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('phone');
-            $table->string('used_broker');
-            $table->string('file');
+            $table->string('used_broker')->nullable();
             $table->timestamps();
         });
     }

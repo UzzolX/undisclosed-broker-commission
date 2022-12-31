@@ -14,6 +14,5 @@ class Claim extends Model
         'email',
         'phone',
         'used_broker',
-        'file',
     ];
 }

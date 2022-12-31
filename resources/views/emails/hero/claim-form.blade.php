@@ -3,7 +3,6 @@
 <br><strong>Email: </strong>{{$data['email']}}
 <br><strong>Phone: </strong>{{$data['phone']}}
 <br><strong>Used broker?: </strong>{{$data['used_broker']}}
-<br><strong>File: </strong>{{$data['file']}}
 
 @component('mail::button', ['url' => 'mailto:' .$data['email'] ])
 Reply to this

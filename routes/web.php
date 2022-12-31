@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index-index');
-Route::post('/claim-store', [App\Http\Controllers\IndexController::class, 'storeClaim'])->name('index.storeClaim');
+Route::post('/claim-store', [App\Http\Controllers\ContactController::class, 'storeClaimMail'])->name('index.storeClaim');
+Route::post('/claim-store/up', [App\Http\Controllers\ContactController::class, 'storeClaimTopMail'])->name('index.storeClaimTop');
 Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index'])->name('contact-index');
 Route::post('/contact-us/store', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
 Route::get('/frequently-asked-questions', [App\Http\Controllers\FaqController::class, 'index'])->name('faq-index');

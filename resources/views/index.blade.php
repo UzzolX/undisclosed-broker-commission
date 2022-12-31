@@ -29,7 +29,7 @@
                                 <h2> How much is my business energy claim worth?</h2>
                                 <p>Please complete below and we’ll get back to you to advice how we calculate your
                                     claims!</p>
-                                <form action="{{route('index.storeClaim')}}" method="POST">
+                                <form action="{{route('index.storeClaimTop')}}" method="POST">
                                     @csrf
                                     <div class="row">
                                         <div class="col-xl-12">
@@ -49,11 +49,11 @@
                                                 <option value="no">No</option>
                                             </select>
                                         </div>
-                                        <div class=" col-xl-12">
+                                        {{-- <div class=" col-xl-12">
                                             <input name="file" type="file" data-multiple-caption="{count} files selected" multiple
                                                  id="file" class="inputfile">
                                             <label for="file"><span>Choose a file&hellip;</span></label>
-                                        </div>
+                                        </div> --}}
                                         <div class="col-xl-12">
                                             <button type="submit"> submit</button>
                                         </div>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-xl-12">
                         <div class="contact">
-                            <form action="#" method="POST">
+                            <form action="{{route('index.storeClaim')}}" method="POST">
                                 @csrf
                                 <input name="name" type="text" placeholder="Name">
                                 <input name="phone" type="number" placeholder="Mobile">
