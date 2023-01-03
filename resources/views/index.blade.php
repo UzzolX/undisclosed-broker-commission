@@ -27,8 +27,7 @@
                         <div class="col-xl-6">
                             <div class="claim-form">
                                 <h2> How much is my business energy claim worth?</h2>
-                                <p>Please complete below and we’ll get back to you to advice how we calculate your
-                                    claims!</p>
+                                <p>Please get in touch with us regarding your business energy claim via this contact form</p>
                                     @if(Session::has('message'))
                                     <div class="alert alert-success">
                                         {{Session::get('message')}}
