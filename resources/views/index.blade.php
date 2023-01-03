@@ -29,7 +29,12 @@
                                 <h2> How much is my business energy claim worth?</h2>
                                 <p>Please complete below and we’ll get back to you to advice how we calculate your
                                     claims!</p>
-                                <form action="{{route('index.storeClaimTop')}}" method="POST">
+                                    @if(Session::has('message'))
+                                    <div class="alert alert-success">
+                                        {{Session::get('message')}}
+                                    </div>
+                                    @endif
+                                    <form action="{{route('index.storeClaimTop')}}" method="POST">
                                     @csrf
                                     <div class="row">
                                         <div class="col-xl-12">

@@ -59,6 +59,11 @@
                             <div class="contact-titel">
                                 <h3>Get in touch</h3>
                                 <div class="contact-us">
+                                    @if(Session::has('message'))
+                        <div class="alert alert-success">
+                            {{Session::get('message')}}
+                        </div>
+                        @endif
                                     <form action="{{route('contact.store')}}" method="POST">
                                         @csrf
                                         <input name="name" type="text" placeholder="Name">
