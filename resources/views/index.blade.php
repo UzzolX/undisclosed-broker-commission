@@ -59,7 +59,7 @@
                                             <label for="file"><span>Choose a file&hellip;</span></label>
                                         </div> --}}
                                         <div class="col-xl-12">
-                                            <button type="submit"> submit</button>
+                                            <button type="submit">Submit</button>
                                         </div>
                                     </div>
                                 </form>
