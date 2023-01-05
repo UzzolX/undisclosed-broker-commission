@@ -45,13 +45,13 @@
                             your claim size is a copy of your business’s energy bill. That’s it. Get
                             in touch with us right now!
                         </p>
-                        <a href="#"><button>Submit</button></a>
+                        <a href="#contact-us-anchor"><button>Contact Us</button></a>
                     </div>
 
                 </div>
             </div>
         </section>
-        <section class="pt-50 pb-100">
+        <section id="contact-us-anchor" class="pt-50 pb-100">
             <div class="container">
                 <div class="main-contact-box">
                     <div class="row">
