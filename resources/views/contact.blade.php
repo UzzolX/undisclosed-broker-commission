@@ -82,10 +82,10 @@
 
                             <div class="address-all-info">
                                 <div class="address-info">
-                                    <i class="ti-mobile"></i> <span>0179865320</span>
+                                    <i class="ti-mobile"></i> <span>020 4540 6165</span>
                                 </div>
                                 <div class="address-info">
-                                    <i class="ti-email"></i> <span>undisclossedclaims@gmail.com</span>
+                                    <i class="ti-email"></i> <span>contact@undisclosedenergycommission.co.uk</span>
                                 </div>
                             </div>
                         </div>
