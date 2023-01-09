@@ -10,6 +10,13 @@
         margin-left: 40px;
         margin-right: 40px;
     }
+
+    .address {
+        padding-left: 0px !important;
+    }
+    .address h3 {
+        margin-left: 20px;
+    }
 }
 
 
@@ -248,7 +255,7 @@
     }
     .address {
         padding-top: 30px;
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 50px;
     }
     .contact-titel {
@@ -261,6 +268,7 @@
         font-size: 16px;
     }
 }
+
 
 @media (max-width: 375px) {
     .claim-form {
@@ -309,10 +317,22 @@
     .contact-titel {
         margin-right: 0px;
     }
+    .address {
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+    .address h3 {
+        color: #ffffff;
+        padding-left: 10px;
+        margin-bottom: 50px;
+        border-left: 7px solid #ffffff;
+        margin-left: 20px;
+    }
     .address-info {
         margin-bottom: 20px;
     }
     .address-info span {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
