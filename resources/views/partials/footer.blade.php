@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="fotter-contean">
-                    <p>© 2022 Undisclosed Broker Commission All Rights Reserved</p>
+                    <p>© 2023 Undisclosed Broker Commission All Rights Reserved</p>
                 </div>
             </div>
         </div>
