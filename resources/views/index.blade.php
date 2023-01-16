@@ -26,8 +26,8 @@
                     <div class="row banner-info">
                         <div class="col-xl-6">
                             <div class="claim-form">
-                                <h2> How much is my business energy claim worth?</h2>
-                                <p>Please get in touch with us regarding your business energy claim via this contact form</p>
+                                <h2>How much is my business energy claim worth?</h2>
+                                <p>Get in touch with one of our UK based energy claim advisors</p>
                                     @if(Session::has('message'))
                                     <div class="alert alert-success">
                                         {{Session::get('message')}}
@@ -83,7 +83,7 @@
                                     <img ssrc="{{asset('frontend-assets/assets/image/shape/star.png')}}" alt="">
                                 </div>
                                 <div class="unmute-shpae position-absolute">
-                                    <img src="{{asset('frontend-assets/assets/image/shape/umute.png')}}" alt="">
+                                    <img src="{{asset('frontend-assets/assets/image/shape/turn-on-sound.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -162,9 +162,7 @@
                                 possible. Our friendly advisors at Undisclosed Broker Commission will do all the work
                                 for you, at strictly No Win No Fee - the claim process is completely stress free!
                                 <br> If you were not aware that you are paying the brokers commission each time your
-                                business pays its energy bill, we will find out how much money your business is due back
-                                – Simply click the link below to calculate your
-                                business energy claim size.
+                                business pays its energy bill, we will find out how much money your business is due back.
 
                             </p>
                         </div>
@@ -186,28 +184,9 @@
                                 Why make a business energy claim?
                             </h1>
                             <ul style="text-align: start;">
-                                <li> Business energy prices are raising at an uncontrollable rate. Reducing costs and
-                                    overheads are more of a priority now than ever.</li>
+                                <li>Energy brokers have a duty of care to find you the most competitive deals for your business. The commission they stand to make for this service should be made clear to you from the outset. Unfortunately, mis-selling of business energy contracts is a common practice.</li>
 
-                                <li>The energy sector is heavily regulated. The broker industry is not. The energy
-                                    ombudsman stepped in to advise that businesses were being taken advantage of without
-                                    their knowledge because of the brokers hidden commission.</li>
-
-
-                                <li>The Ombudsman insisted all brokers are honest and clear with clients in terms of how
-                                    much commission they would receive from the supplier </li>
-
-                                <li> Due to the unambiguity around the broker commission model, energy suppliers
-                                    actively encouraged brokers to carry on with this process. This is seen as bribery.
-                                </li>
-
-                                <li> We will assist you in getting back what your business shouldn’t have paid in the
-                                    first place. The business energy claim we make on your behalf is completely No Win
-                                    No Fee. All money recovered comes from the energy supplier.
-                                    Our payment model is very straight forward. We only get paid if the business energy
-                                    claim is successful. Our fees are 30% of the claim, and your business will be
-                                    awarded 70% of the claim size. </li>
-
+                                <li>Here at Undisclosed Broker Commission, we always work on the best principle of our clients. We manage each case individually to ensure your business gets back the maximum compensation amount. Your business will be assigned a dedicated project manager who will keep you updated throughout the claims process.  We have zero upfront fees, it is strictly no-win, no-fee.</li>
                             </ul>
                         </div>
 
