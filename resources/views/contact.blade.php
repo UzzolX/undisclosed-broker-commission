@@ -70,7 +70,7 @@
                                         <input name="phone" type="number" placeholder="Mobile">
                                         <input name="email" type="email" placeholder="Email">
                                         <textarea name="message" placeholder="Your message"></textarea>
-                                        <button type="submit"> Send massage </button>
+                                        <button type="submit">Send Message</button>
                                     </form>
                                 </div>
                             </div>
