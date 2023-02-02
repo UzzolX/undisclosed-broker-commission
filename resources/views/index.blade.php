@@ -10,6 +10,9 @@
     @include('partials.head')
 
 </head>
+<!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4QKLMQX20"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-H4QKLMQX20'); </script>
 
 <body>
 
@@ -170,7 +173,7 @@
                 </div>
             </div>
         </section>
-        <section class="pt-100 pb-100 energy-claim-all" style="background-image:url(frontend-assets/assets/image/claim.jpg); 
+        <section class="pt-100 pb-100 energy-claim-all" style="background-image:url(frontend-assets/assets/image/claim.webp); 
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
