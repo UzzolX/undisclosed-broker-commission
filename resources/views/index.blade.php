@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="Reclaim your hidden broker commission! Our energy commission claims company helps businesses recover their due business energy refunds from secret broker commissions in their energy bills. Contact us today for a thorough business energy claim audit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Title-->
@@ -10,9 +12,18 @@
     @include('partials.head')
 
 </head>
-<!-- Google tag (gtag.js) --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4QKLMQX20"></script> 
-<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-H4QKLMQX20'); </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4QKLMQX20"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-H4QKLMQX20');
+
+</script>
 
 <body>
 
@@ -31,12 +42,12 @@
                             <div class="claim-form">
                                 <h2>How much is my business energy claim worth?</h2>
                                 <p>Get in touch with one of our UK based energy claim advisors</p>
-                                    @if(Session::has('message'))
-                                    <div class="alert alert-success">
-                                        {{Session::get('message')}}
-                                    </div>
-                                    @endif
-                                    <form action="{{route('index.storeClaimTop')}}" method="POST">
+                                @if(Session::has('message'))
+                                <div class="alert alert-success">
+                                    {{Session::get('message')}}
+                                </div>
+                                @endif
+                                <form action="{{route('index.storeClaimTop')}}" method="POST">
                                     @csrf
                                     <div class="row">
                                         <div class="col-xl-12">
@@ -165,7 +176,8 @@
                                 possible. Our friendly advisors at Undisclosed Broker Commission will do all the work
                                 for you, at strictly No Win No Fee - the claim process is completely stress free!
                                 <br> If you were not aware that you are paying the brokers commission each time your
-                                business pays its energy bill, we will find out how much money your business is due back.
+                                business pays its energy bill, we will find out how much money your business is due
+                                back.
 
                             </p>
                         </div>
@@ -187,9 +199,16 @@
                                 Why make a business energy claim?
                             </h1>
                             <ul style="text-align: start;">
-                                <li>Energy brokers have a duty of care to find you the most competitive deals for your business. The commission they stand to make for this service should be made clear to you from the outset. Unfortunately, mis-selling of business energy contracts is a common practice.</li>
+                                <li>Energy brokers have a duty of care to find you the most competitive deals for your
+                                    business. The commission they stand to make for this service should be made clear to
+                                    you from the outset. Unfortunately, mis-selling of business energy contracts is a
+                                    common practice.</li>
 
-                                <li>Here at Undisclosed Broker Commission, we always work on the best principle of our clients. We manage each case individually to ensure your business gets back the maximum compensation amount. Your business will be assigned a dedicated project manager who will keep you updated throughout the claims process.  We have zero upfront fees, it is strictly no-win, no-fee.</li>
+                                <li>Here at Undisclosed Broker Commission, we always work on the best principle of our
+                                    clients. We manage each case individually to ensure your business gets back the
+                                    maximum compensation amount. Your business will be assigned a dedicated project
+                                    manager who will keep you updated throughout the claims process. We have zero
+                                    upfront fees, it is strictly no-win, no-fee.</li>
                             </ul>
                         </div>
 
